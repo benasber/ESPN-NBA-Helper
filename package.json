@@ -1,0 +1,10 @@
+{
+  "name": "ESPN NBA Fantasy Helper",
+  "version": "0.1.0",
+  "description": "Aimed for the Vucci Mane league",
+  "private": true,
+  "scripts": {
+    "watch": "node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",
+    "build": "node ./node_modules/webpack/bin/webpack.js --mode=production --config config/webpack.config.js"
+  }
+}
